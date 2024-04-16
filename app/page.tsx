@@ -1,3 +1,5 @@
-export default function Home() {
-  return <h1>Hello SARAL</h1>;
+import KanbanBoard from "@/components/KanbanBoard";
+
+export default async function Home() {
+  return <KanbanBoard />;
 }
