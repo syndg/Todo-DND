@@ -56,7 +56,7 @@ const KanbanBoard = () => {
     if (updatedStatusTodo.completed) {
       toast.success(`Todo "${add.todo}" completed!`);
     } else {
-      toast.success(`Todo "${add.todo}" marked incomplete!`);
+      toast.info(`Todo "${add.todo}" marked incomplete!`);
     }
   };
 

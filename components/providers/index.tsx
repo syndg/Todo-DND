@@ -13,7 +13,7 @@ const Providers = ({ children }: { children: React.ReactNode }) => {
     >
       <TodoProvider>
         {children}
-        <Toaster />
+        <Toaster richColors />
       </TodoProvider>
     </ThemeProvider>
   );
